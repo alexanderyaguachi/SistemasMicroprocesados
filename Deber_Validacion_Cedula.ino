@@ -10,7 +10,7 @@
  int i=0;// Variable de conteo o recorrido
  char dato;
  int ent;// variable para valores enteros
- int dec=0,decM=0,pm=0; 
+ int dec=0,Dec=0,pm=0; 
  int com=1;
  void setup() 
  {
@@ -73,9 +73,9 @@ void loop() {
         
            if (tam==11) { //Si cumple
           dec=pm/10; 
-          decM=(dec+1)*10-pm; 
+          Dec=(dec+1)*10-pm; 
          dato= vector [10]; 
-            if (decM==atoi(&dato)) {
+            if (Dec==atoi(&dato)) {
                
             Serial.println("Cedula ingresada Correcta");  //
               } 
