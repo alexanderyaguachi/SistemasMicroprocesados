@@ -24,6 +24,5 @@ void loop() {
         digitalWrite(led_encendido, LOW);
         }
  Serial.print(String(analogRead(0))+ ": ");
- Serial.println(valor, 3);
- delay(200);
+ delay(100);
 }
