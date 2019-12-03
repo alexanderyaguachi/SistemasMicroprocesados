@@ -1,11 +1,11 @@
 //UNIVERSIDAD TECNICA DEL NORTE
 //Alexander Yaguachi
-//Deber 1 Juego de Luces
+//Repaso 3 Juego de Luces
 //Realizar un programa que active 4 juegos de luces con 5 leds al ingresar datos por comunicación serial de 
 //la siguiente forma: ACBF-> Activa juego 1 ACGF -> Activa juego 2 ADBF -> Activa juego 3 ADBH -> Activa juego 4
 
 
-int t=200;                         //Declaramos el tiempo de prendido
+int t=200;                       
 int leds[5]={9,10,11,12,13};       //Declaramos un vector de 5 posiciones
 int rdm;
 int i=0;
