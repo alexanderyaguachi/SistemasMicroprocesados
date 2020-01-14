@@ -1,3 +1,8 @@
+/*
+ Realizar un programa que mediante teclado matricial (consultar) 
+				 ingrese el tiempo en segundos de una cuenta regresiva. Esta cuenta,
+				 decrece cada 1 segundo mediante timer
+*/
 #include <MsTimer2.h>
 #include <LiquidCrystal.h>
 #include <Keypad.h>     // libreria Keypad
